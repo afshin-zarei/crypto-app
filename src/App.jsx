@@ -1,5 +1,7 @@
+import HomePage from "./components/templates/HomePage";
+
 function App() {
-  return <h1>Crypto app</h1>;
+  return <HomePage />;
 }
 
 export default App;
