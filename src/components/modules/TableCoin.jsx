@@ -43,7 +43,7 @@ const TableRow = ({
     current_price,
     price_change_percentage_24h: price_change,
     total_volume,
-  },
+  }
 }) => {
   return (
     <tr key={id}>
@@ -57,7 +57,7 @@ const TableRow = ({
       <td>{current_price.toLocaleString()}</td>
 
       <td className={price_change > 0 ? styles.success : styles.error}>
-        {price_change.toFixed(2)}%
+        {price_change.toFixed(2)}$
       </td>
       <td>{total_volume.toLocaleString()}</td>
       <td>
@@ -66,3 +66,5 @@ const TableRow = ({
     </tr>
   );
 };
+
+
