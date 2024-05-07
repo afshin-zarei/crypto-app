@@ -14,7 +14,8 @@ function Chart({ chart, setChart }) {
    const [type, setType] = useState("prices");
    const typeHandler = (event) => {
       if (event.target.tagName === "BUTTON") {
-         const type = event.target.innerText.toLowerCase().replace();
+         const type = event.target.innerText.toLowerCase().replace(" ","_");
+         setType(type)
          
       }
    };
