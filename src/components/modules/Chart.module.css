@@ -1,0 +1,17 @@
+.container {
+   position: fixed;
+   inset: 0;
+   backdrop-filter: blur(3px);
+}
+
+.cross {
+   display: inline-block;
+   font-size: 1.8rem;
+   font-weight: 800;
+   background-color: #d33636;
+   color: #fff;
+   padding: 5px 15px 8px 15px;
+   margin: 30px 0 0 30px;
+   border-radius: 5px;
+   cursor: pointer;
+}
